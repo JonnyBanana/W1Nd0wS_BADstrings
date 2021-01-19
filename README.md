@@ -79,7 +79,11 @@ Video: https://www.youtube.com/watch?v=8OuW9mykeds
 
 
 <h2>C:\:$i30:$bitmap</h2>
-```diff
+
+```html
+<p style="color:red;">DANGER!!!! USE ONLY IN VB!!!</p>
+```
+
 - DANGER!!!! USE ONLY IN VB!!!
 
 - DONT COPY THIS STRING ON YOUR MAIN PC!!! 
@@ -87,7 +91,7 @@ Video: https://www.youtube.com/watch?v=8OuW9mykeds
 - EVEN ONLY COPYING AND PASTEING THE STRING IS REALLY DANGEROUS!!!!!
 
 - YOU SERIOUSLY RISK OF COMPROMISING YOUR FILESYSTEM AND LOSING ALL THE DATA ON THE DISK!!!
-```
+
 - Compatibility: 10
 - Cause: Drive/NTFS Corruption, Crash and Restart the system.
 - How it works:
