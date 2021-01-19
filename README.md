@@ -80,7 +80,7 @@ Video: https://www.youtube.com/watch?v=8OuW9mykeds
 
 <h2>C:\:$i30:$bitmap</h2>
 
-<p style="color:red;">DANGER!!!! USE ONLY IN VB!!!<p>
+<p style="color:red;">DANGER!!!! USE ONLY IN VB!!!</p>
 
 DONT COPY THIS STRING ON YOUR MAIN PC!!! 
 
