@@ -31,7 +31,7 @@ https://github.com/JonnyBanana/-MFT-Duck-Crasher
 - Cause: BSOD.
 - How it works: In DOS there are names called "Reserved Names", if you rename a file or folder or if it is called from the terminal or code the system crashes, this happens because in NT systems the DOS is not a real O.S. but is often referred to as "DOS box", it's not really DOS, but a command line interpreter (CLI).
 - How to reproduce the bug: WIN+R,put the string, and run! Or you can trying to load an image from file:///c:/con/con from a webpage, or from cmd/bat file.
-- Additional Infos: This bug affect also files. If for example you rename a file,  Microsoft have make a list with the "reserved Names": 
+- Additional Infos: This bug affect also renaming of files. If for example you rename a file,  Microsoft have make a list with the "reserved Names": 
 CON, PRN, AUX, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9.
 If you try a rename the file with one of this reserved name you will see this:
 
