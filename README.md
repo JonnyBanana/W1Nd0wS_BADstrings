@@ -64,7 +64,12 @@ https://twitter.com/Foone/status/1058685897829318656
 
 <h2>\\.\globalroot\device\condrv\kernelconnect</h2>
 
-https://www.bleepingcomputer.com/news/security/windows-10-bug-crashes-your-pc-when-you-access-this-location/
+- Compatibility: 10.
+- Cause: BSOD.
+- How it works: When Windows try to connecting to this device (\\.\globalroot\device\condrv\kernelconnect), developers are expected to pass along the 'attach' extended attribute to communicate with the device properly.If you try to connect to the path without passing the attribute due to improper error checking, it will cause an exception that causes a Blue Screen of Death
+- How to reproduce the bug:
+
+Article: https://www.bleepingcomputer.com/news/security/windows-10-bug-crashes-your-pc-when-you-access-this-location/
 
 <h2>C:\:$i30:$bitmap</h2>
 
