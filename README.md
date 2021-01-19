@@ -68,7 +68,7 @@ https://twitter.com/Foone/status/1058685897829318656
 
 <h2>\\.\globalroot\device\condrv\kernelconnect</h2>
 
-- <b>Compatibility:</b> 10
+- <b>Compatibility:</b> XP, 10
 - <b>Cause:</b> BSOD.
 - <b>How it works</b>: When Windows try to connecting to this device (\\.\globalroot\device\condrv\kernelconnect), developers are expected to pass along the 'attach' extended attribute to communicate with the device properly.If you try to connect to the path without passing the attribute due to improper error checking, it will cause an exception that causes a Blue Screen of Death
 - <b>How to reproduce the bug:</b> There are several ways to reproduce the bug, you can create a shorctut (.lnk) that leads to the path, you can make a .url file, you can recall it from a web page, but simply type it and send it from the browser, and to some users they say just type it on google and hit enter to reproduce the bug. I strongly believe it also works from CMD/Powershell/Code.
