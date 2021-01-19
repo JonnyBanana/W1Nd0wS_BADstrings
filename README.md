@@ -35,6 +35,8 @@ https://github.com/JonnyBanana/-MFT-Duck-Crasher
 CON, PRN, AUX, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9.
 If you try a rename the file with one of this reserved name you will see this:
 
+<BR>
+  
 ![Alt text](https://raw.githubusercontent.com/JonnyBanana/W1Nd0wS_BADstrings/main/img/nope.png "W1Nd0wS_BADstrings")
 
 <BR>
