@@ -37,9 +37,9 @@ If you try a rename the file with one of this reserved name you will see this:
 
 <BR>
   
- <div style="text-align:center;">
+
 ![Alt text](https://raw.githubusercontent.com/JonnyBanana/W1Nd0wS_BADstrings/main/img/nope.png "W1Nd0wS_BADstrings")
-</div>
+
 
 <BR>
 
