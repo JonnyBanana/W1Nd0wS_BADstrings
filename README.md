@@ -25,19 +25,30 @@ RubberDucky Script that Reproduce the Bug:
 https://github.com/JonnyBanana/-MFT-Duck-Crasher
 
 
-<h2>C:/con/con - </h2>
+<h2>C:\con\con, C:\Aux\Aux\, C:\nul\nul  </h2>
 
 - Compatibility: 95, 98.
 - Cause: BSOD.
-- How it works:
-- How to reproduce the bug: WIN+R,put the string, and run! Or you can trying to load an image from file:///c:/con/con from a webpage.
+- How it works: In DOS there are names called "Reserved Names", if you rename a file or folder or if it is called from the terminal or code the system crashes, this happens because in NT systems the DOS is not a real O.S. but is often referred to as "DOS box", it's not really DOS, but a command line interpreter (CLI).
+- How to reproduce the bug: WIN+R,put the string, and run! Or you can trying to load an image from file:///c:/con/con from a webpage, or from cmd/bat file.
 - Additional Infos: This bug affect also files. If for example you rename a file,  Microsoft have make a list with the "reserved Names": 
 CON, PRN, AUX, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9.
 If you try a rename the file with one of this reserved name you will see this:
 
+![Alt text](https://raw.githubusercontent.com/JonnyBanana/W1Nd0wS_BADstrings/main/img/nope.png "W1Nd0wS_BADstrings")
 
+
+
+Article:
+https://thenewstack.io/the-44-year-old-operating-system-bug/
 
 Video:
 https://www.youtube.com/watch?v=ACP9qcjwV3I
+
+Naming Files, Paths, and Namespaces (from Microsoft): 
+https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file
+
+Main Tweet:
+https://twitter.com/Foone/status/1058685897829318656
 
 
