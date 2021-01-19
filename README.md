@@ -43,7 +43,7 @@ If you try a rename the file with one of this reserved name you will see this:
 
 <BR>
   
-But You can Create this folder with this command in cmd: 
+But You can Create this folder(Very Unstable) with this command in cmd: 
 
 Create Dir:  md \\.\c:\con  
 
