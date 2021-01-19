@@ -42,6 +42,10 @@ If you try a rename the file with one of this reserved name you will see this:
 
 
 <BR>
+  
+But You can Create this folder with this command in cmd: 
+Create Dir:  md \\.\c:\con  
+Delete md \\.\c:\con 
 
 Article:
 https://thenewstack.io/the-44-year-old-operating-system-bug/
