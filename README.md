@@ -91,7 +91,7 @@ Video: https://www.youtube.com/watch?v=8OuW9mykeds
 
 - Compatibility: 10
 - Cause: Drive/NTFS Corruption, Crash and Restart the system.
-- How it works:
+- How it works: A drive can become corrupted by merely trying to access the $i30 NTFS attribute on a folder in a certain way. The Windows NTFS Index Attribute, or '$i30' string, is an NTFS attribute associated with directories that contains a list of a directory's files and subfolders. In some cases, the NTFS Index can also include deleted files and folders, which comes in handy when conducting an incident response or forensics. For now it is unclear why accessing this attribute corrupts the drive, but it's works....
 - How to reproduce the bug: I REPEAT, USE THIS STRING ONLY IN VIRTUAL BOX OR IN A TARGET MACHINE!!! That are several ways to reproce this bug,
 
 Article: https://www.bleepingcomputer.com/news/security/windows-10-bug-corrupts-your-hard-drive-on-seeing-this-files-icon/
