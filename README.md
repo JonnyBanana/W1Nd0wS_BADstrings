@@ -27,7 +27,7 @@ https://github.com/JonnyBanana/-MFT-Duck-Crasher
 
 <h2>C:\con\con, C:\Aux\Aux\, C:\nul\nul  </h2>
 
-- Compatibility: 95, 98.
+- Compatibility: 95, 98
 - Cause: BSOD.
 - How it works: In DOS there are names called "Reserved Names", if you rename a file or folder or if it is called from the terminal or code the system crashes, this happens because in NT systems the DOS is not a real O.S. but is often referred to as "DOS box", it's not really DOS, but a command line interpreter (CLI).
 - How to reproduce the bug: WIN+R,put the string, and run! Or you can trying to load an image from file:///c:/con/con from a webpage, or from cmd/bat file.
@@ -64,7 +64,7 @@ https://twitter.com/Foone/status/1058685897829318656
 
 <h2>\\.\globalroot\device\condrv\kernelconnect</h2>
 
-- Compatibility: 10.
+- Compatibility: 10
 - Cause: BSOD.
 - How it works: When Windows try to connecting to this device (\\.\globalroot\device\condrv\kernelconnect), developers are expected to pass along the 'attach' extended attribute to communicate with the device properly.If you try to connect to the path without passing the attribute due to improper error checking, it will cause an exception that causes a Blue Screen of Death
 - How to reproduce the bug: There are several ways to reproduce the bug, you can create a shorctut (.lnk) that leads to the path, you can make a .url file, you can recall it from a web page, but simply type it and send it from the browser, and to some users they say just type it on google and hit enter to reproduce the bug. I strongly believe it also works from CMD/Powershell/Code.
@@ -80,8 +80,17 @@ Video: https://www.youtube.com/watch?v=8OuW9mykeds
 
 <h2>C:\:$i30:$bitmap</h2>
 
-DANGER!!!! USE ONLY IN VB!
+DANGER!!!! USE ONLY IN VB!!!
+DONT COPY THIS STRING ON YOUR MAIN PC!!! 
+EVEN ONLY COPYING AND PASTEING THE STRING IS REALLY DANGEROUS!!!!!
+YOU SERIOUSLY RISK OF COMPROMISING YOUR FILESYSTEM AND LOSING ALL THE DATA ON THE DISK!!!
 
-https://www.bleepingcomputer.com/news/security/windows-10-bug-corrupts-your-hard-drive-on-seeing-this-files-icon/
+
+- Compatibility: 10
+- Cause: Drive/NTFS Corruption, Crash and Restart the system.
+- How it works:
+- How to reproduce the bug: I REPEAT, USE THIS STRING ONLY IN VIRTUAL BOX OR IN A TARGET MACHINE!!! That are several ways to reproce this bug,
+
+Article: https://www.bleepingcomputer.com/news/security/windows-10-bug-corrupts-your-hard-drive-on-seeing-this-files-icon/
 
 
