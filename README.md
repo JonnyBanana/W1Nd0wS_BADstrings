@@ -60,3 +60,14 @@ Main Tweet:
 https://twitter.com/Foone/status/1058685897829318656
 
 
+<h2>\\.\globalroot\device\condrv\kernelconnect</h2>
+
+https://www.bleepingcomputer.com/news/security/windows-10-bug-crashes-your-pc-when-you-access-this-location/
+
+<h2>C:\:$i30:$bitmap</h2>
+
+DANGER!!!! USE ONLY IN VB!
+
+https://www.bleepingcomputer.com/news/security/windows-10-bug-corrupts-your-hard-drive-on-seeing-this-files-icon/
+
+
