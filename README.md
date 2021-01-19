@@ -80,9 +80,6 @@ Video: https://www.youtube.com/watch?v=8OuW9mykeds
 
 <h2>C:\:$i30:$bitmap</h2>
 
-```html
-<b>DANGER!!!! USE ONLY IN VB!!!</b>
-```
 
 <b>DANGER!!!! USE ONLY IN VB!!!</b>
 
