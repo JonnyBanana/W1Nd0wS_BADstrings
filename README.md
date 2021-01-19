@@ -37,7 +37,7 @@ If you try a rename the file with one of this reserved name you will see this:
 
 ![Alt text](https://raw.githubusercontent.com/JonnyBanana/W1Nd0wS_BADstrings/main/img/nope.png "W1Nd0wS_BADstrings")
 
-
+<BR>
 
 Article:
 https://thenewstack.io/the-44-year-old-operating-system-bug/
