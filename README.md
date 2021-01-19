@@ -108,3 +108,12 @@ Original Tweet: https://twitter.com/Slmi0xC/status/1349983599865466881
 Interesting Tweet: https://twitter.com/wdormann/status/1347995993548206087
 
 
+<h2>To Do:</h2>
+
+Do you know of any other strings it didn't find here? Very well!
+
+Please Fork and Merge the Repo or simply contact me, you can find all my contacts in the home of my github:https://github.com/JonnyBanana
+
+
+
+
