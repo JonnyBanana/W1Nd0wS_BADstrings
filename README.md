@@ -49,7 +49,7 @@ But You can Create this folder(Very Unstable) with this command in cmd:
 
 Create Dir:  md \\.\c:\con  
 
-Delete md \\.\c:\con 
+Delete Dir:  rd \\.\c:\con 
 
 ```
 
