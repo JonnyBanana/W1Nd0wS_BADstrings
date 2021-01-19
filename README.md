@@ -67,9 +67,16 @@ https://twitter.com/Foone/status/1058685897829318656
 - Compatibility: 10.
 - Cause: BSOD.
 - How it works: When Windows try to connecting to this device (\\.\globalroot\device\condrv\kernelconnect), developers are expected to pass along the 'attach' extended attribute to communicate with the device properly.If you try to connect to the path without passing the attribute due to improper error checking, it will cause an exception that causes a Blue Screen of Death
-- How to reproduce the bug:
+- How to reproduce the bug: There are several ways to reproduce the bug, you can create a shorctut (.lnk) that leads to the path, you can make a .url file, you can recall it from a web page, but simply type it and send it from the browser, and to some users they say just type it on google and hit enter to reproduce the bug. I strongly believe it also works from CMD/Powershell/Code.
 
 Article: https://www.bleepingcomputer.com/news/security/windows-10-bug-crashes-your-pc-when-you-access-this-location/
+
+Article:https://borncity.com/win/2021/01/18/windows-10-bug-allows-bsod-by-entering-a-path-in-a-browser/
+
+The Bug on Browser:https://docs.microsoft.com/en-us/answers/questions/235907/windows-crash-when-navigate-39globalrootdevicecond.html
+
+Video: https://www.youtube.com/watch?v=8OuW9mykeds
+
 
 <h2>C:\:$i30:$bitmap</h2>
 
