@@ -47,7 +47,7 @@ But You can Create this folder (Very Unstable) with this command in cmd:
 
 ```
 
-Create Dir:  md \\.\c:\con    (Create a directory in C:\)
+Create Dir:  md \\.\c:\con    (Create a "con" directory in C:\)
 
 Delete Dir:  rd \\.\c:\con  
 
