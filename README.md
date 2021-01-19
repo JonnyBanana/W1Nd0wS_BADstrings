@@ -112,7 +112,10 @@ Interesting Tweet: https://twitter.com/wdormann/status/1347995993548206087
 
 Do you know of any other strings it didn't find here? Very well!
 
-Please Fork and Merge the Repo or simply contact me, you can find all my contacts in the home of my github:https://github.com/JonnyBanana
+Please Fork and Merge the Repo or simply contact me. 
+
+You can find all my contacts in the home of my github:https://github.com/JonnyBanana
+
 
 
 
