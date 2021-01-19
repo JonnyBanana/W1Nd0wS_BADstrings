@@ -92,9 +92,15 @@ Video: https://www.youtube.com/watch?v=8OuW9mykeds
 - Compatibility: 10
 - Cause: Drive/NTFS Corruption, Crash and Restart the system.
 - How it works: A drive can become corrupted by merely trying to access the $i30 NTFS attribute on a folder in a certain way. The Windows NTFS Index Attribute, or '$i30' string, is an NTFS attribute associated with directories that contains a list of a directory's files and subfolders. In some cases, the NTFS Index can also include deleted files and folders, which comes in handy when conducting an incident response or forensics. For now it is unclear why accessing this attribute corrupts the drive, but it's works....
-- How to reproduce the bug: I REPEAT, USE THIS STRING ONLY IN VIRTUAL BOX OR IN A TARGET MACHINE!!! That are several ways to reproce this bug, The less sophisticated way is to call it from the terminal with the cd command, it's possible also inject the path in a shortcut (.url) file and windows explore when try to open the file restart the pc.... But have a lot or more sophisticated ways, the more dangerous skill of this string it's probably that would trigger the vulnerability even if the user never opened the file! During my tests the mere fact of copying, pasting the path on a txt file and saving it can trigger the bug.
-If nsertato inside a .zip or .rar file the bug is executed only when the compressed file is opened ... It's a NASTY BUG !!!!
+- How to reproduce the bug: <b>I REPEAT, USE THIS STRING ONLY IN VIRTUAL BOX OR IN A TARGET MACHINE!!!</b> That are several ways to reproce this bug, The less sophisticated way is to call it from the terminal with the cd command, it's possible also inject the path in a shortcut (.url) file and windows explore when try to open the file restart the pc.... But have a lot or more sophisticated ways, the more dangerous skill of this string it's probably that would trigger the vulnerability even if the user never opened the file! During my tests the mere fact of copying, pasting the path on a txt file and saving it can trigger the bug.
+If inserted inside a .zip or .rar file the bug is executed only when the compressed file is opened ... It's a <b>NASTY BUG!!!!</b>
 
 Article: https://www.bleepingcomputer.com/news/security/windows-10-bug-corrupts-your-hard-drive-on-seeing-this-files-icon/
+
+Video: https://www.youtube.com/watch?v=KGsTi-iVmLY
+
+Original Tweet: https://twitter.com/Slmi0xC/status/1349983599865466881
+
+Interesting Tweet: https://twitter.com/wdormann/status/1347995993548206087
 
 
