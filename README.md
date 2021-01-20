@@ -114,7 +114,7 @@ Do you know of any other strings it didn't find here? Very well!
 
 Please Fork and Merge the Repo or simply contact me. 
 
-You can find all my contacts in the home of my github:https://github.com/JonnyBanana
+You can find all my contacts in the home of my github: https://github.com/JonnyBanana
 
 
 
