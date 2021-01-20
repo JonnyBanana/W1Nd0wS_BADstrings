@@ -9,7 +9,7 @@ A collection of Evil String for Windows that causes various type of crash, bsod,
 - <b>Compatibility:</b> Vista, 7, 8, 8.1
 - <b>Cause:</b> Slow, and crash the system.
 - <b>How it works:</b> Windows uses “$MFT” for special metadata files that are used by NTFS file system, and Windows fail to handle this directory name correctly.
-- <b>How to reproduce the bug:</b> There are several ways to exploit the exploit, you can simply call it from the windows searchbar, from cmd or powershell, and also from an html page (tested with windows explorer, but I think it works with all browsers) by calling a file in folder C:\$MFT\123.
+- <b>How to reproduce the bug:</b> There are several ways to exploit this bug, you can simply call it from the windows searchbar, from cmd or powershell, and also from an html page (tested with windows explorer, but I think it works with all browsers) by calling a file in folder C:\$MFT\123.
 
 
 More Infos:
@@ -30,8 +30,8 @@ https://github.com/JonnyBanana/-MFT-Duck-Crasher
 - <b>Compatibility:</b> 95, 98
 - <b>Cause:</b> BSOD.
 - <b>How it works:</b> In DOS there are names called "Reserved Names", if you rename a file or folder or if it is called from the terminal or code the system crashes, this happens because in NT systems the DOS is not a real O.S. but is often referred to as "DOS box", it's not really DOS, but a command line interpreter (CLI).
-- <b>How to reproduce the bug:</b> WIN+R,put the string, and run! Or you can trying to load an image from file:///c:/con/con from a webpage, or from cmd/bat file.
-- <b>Additional Infos:</b> This bug affect also renaming of files. If for example you rename a file,  Microsoft have make a list with the "reserved Names": 
+- <b>How to reproduce the bug:</b> WIN+R, put the string, and run! Or you can try to load an image from file:///c:/con/con from a webpage, or from cmd/bat file.
+- <b>Additional Infos:</b> This bug affect also renaming of files. Microsoft have make a list with the "reserved Names": 
 CON, PRN, AUX, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, and LPT9.
 If you try a rename the file with one of this reserved name you will see this:
 
@@ -70,7 +70,7 @@ https://twitter.com/Foone/status/1058685897829318656
 
 - <b>Compatibility:</b> XP, 10
 - <b>Cause:</b> BSOD.
-- <b>How it works</b>: When Windows try to connecting to this device (\\.\globalroot\device\condrv\kernelconnect), developers are expected to pass along the 'attach' extended attribute to communicate with the device properly.If you try to connect to the path without passing the attribute due to improper error checking, it will cause an exception that causes a Blue Screen of Death
+- <b>How it works</b>: When Windows try to connecting to this device (\\.\globalroot\device\condrv\kernelconnect), developers are expected to pass along the 'attach' extended attribute to communicate with the device properly. If you try to connect to the path without passing the attribute due to improper error checking, it will cause an exception that causes a Blue Screen of Death
 - <b>How to reproduce the bug:</b> There are several ways to reproduce the bug, you can create a shorctut (.lnk) that leads to the path, you can make a .url file, you can recall it from a web page, but simply type it and send it from the browser, and to some users they say just type it on google and hit enter to reproduce the bug. I strongly believe it also works from CMD/Powershell/Code.
 
 Article: https://www.bleepingcomputer.com/news/security/windows-10-bug-crashes-your-pc-when-you-access-this-location/
@@ -96,7 +96,7 @@ Video: https://www.youtube.com/watch?v=8OuW9mykeds
 - <b>Compatibility:</b> 10
 - <b>Cause:</b> Drive/NTFS Corruption, Crash and Restart the system.
 - <b>How it works:</b> A drive can become corrupted by merely trying to access the $i30 NTFS attribute on a folder in a certain way. The Windows NTFS Index Attribute, or '$i30' string, is an NTFS attribute associated with directories that contains a list of a directory's files and subfolders. In some cases, the NTFS Index can also include deleted files and folders, which comes in handy when conducting an incident response or forensics. For now it is unclear why accessing this attribute corrupts the drive, but it's works....
-- <b>How to reproduce the bug:</b> <b>I REPEAT, USE THIS STRING ONLY IN VIRTUAL BOX OR IN A TARGET MACHINE!!!</b> That are several ways to reproce this bug, The less sophisticated way is to call it from the terminal with the cd command, it's possible also inject the path in a shortcut (.url) file and windows explore when try to open the file restart the pc.... But have a lot or more sophisticated ways, the more dangerous skill of this string it's probably that would trigger the vulnerability even if the user never opened the file! During my tests the mere fact of copying, pasting the path on a txt file and saving it can trigger the bug.
+- <b>How to reproduce the bug:</b> <b>I REPEAT, USE THIS STRING ONLY IN VIRTUAL BOX OR IN A TARGET MACHINE!!!</b> That are several ways to reproduce this bug, The less sophisticated way is to call it from the terminal with the cd command, it's possible also inject the path in a shortcut (.url) file, and windows explorer when try to open the file restart the pc.... But have a lot or more sophisticated ways, the more dangerous skill of this string it's probably that would trigger the vulnerability even if the user never opened the file! During my tests the mere fact of copying, pasting the path on a txt file and saving it can trigger the bug.
 If inserted inside a .zip or .rar file the bug is executed only when the compressed file is opened ... It's a <b>NASTY BUG!!!!</b>
 
 Article: https://www.bleepingcomputer.com/news/security/windows-10-bug-corrupts-your-hard-drive-on-seeing-this-files-icon/
