@@ -108,6 +108,11 @@ Original Tweet: https://twitter.com/Slmi0xC/status/1349983599865466881
 Interesting Tweet: https://twitter.com/wdormann/status/1347995993548206087
 
 
+<h2>WMIC computersystem where caption='TARGET_MACHINE_NAME' rename 'HAL9TH'</h2>
+
+-
+
+
 <h2>To Do:</h2>
 
 Do you know of any other strings it didn't find here? Very well!
@@ -121,12 +126,6 @@ You can find all my contacts in the home of my github: https://github.com/JonnyB
 
 
 
-</BR>
-<!-- Banner -->
-<div align="center">
-<a href="https://www.purevpn.com/order-now.php?aff=44922&amp;a_bid=bbd0f893" target="_blank" ><img src="https://affiliates.purevpn.com/accounts/default1/6hb82wqa2l/bbd0f893.jpg" alt="Best VPN" title="Best VPN" width="728" height="90" /></a>
-</BR></BR>
-</div>
 
 
 
