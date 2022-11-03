@@ -111,6 +111,9 @@ Interesting Tweet: https://twitter.com/wdormann/status/1347995993548206087
 <h2>WMIC computersystem where caption='TARGET_MACHINE_NAME' rename 'HAL9TH'</h2>
 
 -
+  
+  
+  Original Twet: https://twitter.com/not_matthias/status/1583213833694633990
 
 
 <h2>To Do:</h2>
