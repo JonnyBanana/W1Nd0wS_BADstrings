@@ -121,9 +121,19 @@ In any case, with this technique you can bypass Windows Defender by simply chang
 
 ![Alt text](https://raw.githubusercontent.com/JonnyBanana/W1Nd0wS_BADstrings/main/img/HAL9TH.png "W1Nd0wS_BADstrings")
 
+</BR>
 
+Basically, to bypass WIndefender's defenses, simply run this command from an administrator prompt:
 
-  
+<b>wmic ComputerSystem where "name='%ComputerName%'" call rename HAL9TH</b>
+
+</br>
+
+And then you only need to restart the computer to make the changes effective....
+And voila, the game is done....
+
+</br>
+
   
 -Original Twet: https://twitter.com/not_matthias/status/1583213833694633990
   
