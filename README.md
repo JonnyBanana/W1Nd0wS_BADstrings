@@ -129,8 +129,8 @@ Basically, to bypass WIndefender's defenses, simply run this command from an adm
 
 </br>
 
-And then you only need to restart the computer to make the changes effective....
-And voila, the game is done....
+And then you only need to restart the computer to make the changes effective.</BR>
+And voila, the game is done...
 
 </br>
 
