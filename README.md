@@ -154,7 +154,7 @@ Original Twet: https://twitter.com/not_matthias/status/1583213833694633990
   
 </BR>
 
-A special thank to my friend <a href="https://github.com/erikyo?tab=repositories">Erikyo</a> for letting me discover it
+A special thank to my friend <a href="https://github.com/erikyo?tab=repositories">Erikyo</a> for letting me discover it.
 
 </BR>
 
