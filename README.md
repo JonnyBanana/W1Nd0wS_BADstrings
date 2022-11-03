@@ -130,7 +130,10 @@ Basically, to bypass WIndefender's defenses, simply run this command from an adm
 </br>
 
 And then you only need to restart the computer to make the changes effective.</BR>
-And voila, the game is done...</br>
+And voila, the game is done...
+
+</br>
+
 In practice, an attacker can simply place a downloader file in the Windows %startup% folder (possibly encrypted), </br>
 which if done well will not be detected as a threat at the time...</br>
 This file will simply wait until a reboot before executing its commands, </br>
