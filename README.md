@@ -137,8 +137,12 @@ This file will simply wait until a reboot before executing its commands, </br>
 which will then download the real malware (hosted somewhere) to the victim computer, </br>
 once Windows Defender is no longer a problem, thanks to the aforementioned command.</br>
 
+Of course it requires admin permissions, but from firsthand experience i know </br>
+that there are still plenty of Windows PCs that are not password protected.</br>
 
--Original Twet: https://twitter.com/not_matthias/status/1583213833694633990
+This technique was discovered by @not_matthias</br>
+
+Original Twet: https://twitter.com/not_matthias/status/1583213833694633990
   
 
 </BR>
