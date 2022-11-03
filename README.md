@@ -114,7 +114,7 @@ Interesting Tweet: https://twitter.com/wdormann/status/1347995993548206087
 
 <h2>wmic ComputerSystem where "name='%ComputerName%'" call rename HAL9TH</h2>
 
-What can I say... this is not a real "Bad String", I would rather call it a "Vey Bad Idea".
+What can I say... this is not a real "Bad String", i would rather call it a "Very Bad Idea".
 In any case, with this technique you can bypass Windows Defender by simply changing the name of the target computer to "HAL9TH."
 
 </br>
