@@ -3,8 +3,6 @@ A collection of Evil String for Windows that causes various type of crash, bsod,
 
 <img src="https://raw.githubusercontent.com/JonnyBanana/W1Nd0wS_BADstrings/main/img/bad.jpg" alt="" data-canonical-src="https://raw.githubusercontent.com/JonnyBanana/W1Nd0wS_BADstrings/main/img/bad.jpg" width="250" height="250" />
 
-</BR>
-
 <h2>C:\$MFT\123</h2>
 
 - <b>Compatibility:</b> Vista, 7, 8, 8.1
