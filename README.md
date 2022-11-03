@@ -130,11 +130,14 @@ Basically, to bypass WIndefender's defenses, simply run this command from an adm
 </br>
 
 And then you only need to restart the computer to make the changes effective.</BR>
-And voila, the game is done...
+And voila, the game is done...</br>
+In practice, an attacker can simply place a downloader file in the Windows %startup% folder (possibly encrypted), </br>
+which if done well will not be detected as a threat at the time...</br>
+This file will simply wait until a reboot before executing its commands, </br>
+which will then download the real malware (hosted somewhere) to the victim computer, </br>
+once Windows Defender is no longer a problem, thanks to the aforementioned command.</br>
 
-</br>
 
-  
 -Original Twet: https://twitter.com/not_matthias/status/1583213833694633990
   
 
