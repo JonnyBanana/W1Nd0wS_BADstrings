@@ -143,13 +143,15 @@ once Windows Defender is no longer a problem, thanks to the aforementioned comma
 Of course it requires admin permissions, but from firsthand experience i know </br>
 that there are still plenty of Windows PCs that are not password protected.</br>
 
-This technique was discovered by @not_matthias</br>
+This technique was discovered by <b>@not_matthias</b></br>
 
 Original Twet: https://twitter.com/not_matthias/status/1583213833694633990
   
-
 </BR>
 
+A special thank to my friend <a href="https://github.com/erikyo?tab=repositories">Erikyo</b> for letting me discover it
+
+</BR>
 
 <h2>To Do:</h2>
 
