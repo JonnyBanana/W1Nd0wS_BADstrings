@@ -3,6 +3,7 @@ A collection of Evil String for Windows that causes various type of crash, bsod,
 
 <img src="https://raw.githubusercontent.com/JonnyBanana/W1Nd0wS_BADstrings/main/img/bad.jpg" alt="" data-canonical-src="https://raw.githubusercontent.com/JonnyBanana/W1Nd0wS_BADstrings/main/img/bad.jpg" width="250" height="250" />
 
+</BR>
 
 <h2>C:\$MFT\123</h2>
 
@@ -24,6 +25,7 @@ https://www.youtube.com/watch?v=vYL9UQRwUZc&ab_channel=HowToHack
 RubberDucky Script that Reproduce the Bug:
 https://github.com/JonnyBanana/-MFT-Duck-Crasher
 
+</BR>
 
 <h2>C:\con\con, C:\Aux\Aux\, C:\nul\nul  </h2>
 
@@ -64,7 +66,8 @@ https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file
 
 Main Tweet:
 https://twitter.com/Foone/status/1058685897829318656
-
+  
+ </BR>
 
 <h2>\\.\globalroot\device\condrv\kernelconnect</h2>
 
@@ -80,6 +83,8 @@ Article:https://borncity.com/win/2021/01/18/windows-10-bug-allows-bsod-by-enteri
 The Bug on Browser:https://docs.microsoft.com/en-us/answers/questions/235907/windows-crash-when-navigate-39globalrootdevicecond.html
 
 Video: https://www.youtube.com/watch?v=8OuW9mykeds
+  
+</BR>
 
 
 <h2>C:\:$i30:$bitmap</h2>
@@ -107,13 +112,20 @@ Original Tweet: https://twitter.com/Slmi0xC/status/1349983599865466881
 
 Interesting Tweet: https://twitter.com/wdormann/status/1347995993548206087
 
+</BR>
 
 <h2>WMIC computersystem where caption='TARGET_MACHINE_NAME' rename 'HAL9TH'</h2>
 
--
+![Alt text](https://raw.githubusercontent.com/JonnyBanana/W1Nd0wS_BADstrings/main/img/HAL9TH.png "W1Nd0wS_BADstrings")
+
+
+
   
   
-  Original Twet: https://twitter.com/not_matthias/status/1583213833694633990
+-Original Twet: https://twitter.com/not_matthias/status/1583213833694633990
+  
+
+</BR>
 
 
 <h2>To Do:</h2>
