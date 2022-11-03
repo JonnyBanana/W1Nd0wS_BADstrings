@@ -142,6 +142,11 @@ once Windows Defender is no longer a problem, thanks to the aforementioned comma
 
 Of course it requires admin permissions, but from firsthand experience i know </br>
 that there are still plenty of Windows PCs that are not password protected.</br>
+And if not you can always use one of the UAC Bypass techniques, some examples used in the past here:</br>
+
+https://attack.mitre.org/techniques/T1548/002/
+
+</br>
 
 This technique was discovered by <b>@not_matthias</b></br>
 
